@@ -29,6 +29,23 @@
 ## Installation
 
 ### Install by UI
+Installation steps:
+
+- Access to `your-domain.com/install` to start install Flex Home.
+![Welcome](https://botble.com/storage/docs/install-ul/1.png)
+
+- Check server's requirements
+![Check requirements](https://botble.com/storage/docs/install-ul/2.png)
+
+- Config database information
+![Config database](https://botble.com/storage/docs/install-ul/3.png)
+
+- Create admin account
+![Welcome](https://botble.com/storage/docs/install-ul/5.png)
+
+- Finish
+![Welcome](https://botble.com/storage/docs/install-ul/6.png)
+
 - Video tutorial: https://www.youtube.com/watch?v=PNBeHXDpinI&feature=youtu.be
 
 Note: If you install it locally, you can run `php artisan serve` to start server then access to `http://localhost:8000/install` to start install by UI.
