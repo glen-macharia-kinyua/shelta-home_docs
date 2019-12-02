@@ -31,6 +31,9 @@
 ### Install by UI
 - Video tutorial: https://www.youtube.com/watch?v=PNBeHXDpinI&feature=youtu.be
 
+Note: If you install it locally, you can run `php artisan serve` to start server then access to `http://localhost:8000/install` to start install by UI.
+
+### Install manual
 * Run `composer install` to download vendor packages
 
 * Create `.env` file from `.env-example` and update your configuration
