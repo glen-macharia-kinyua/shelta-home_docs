@@ -41,10 +41,10 @@ Installation steps:
 ![Config database](https://botble.com/storage/docs/install-ul/3.png)
 
 - Create admin account
-![Welcome](https://botble.com/storage/docs/install-ul/5.png)
+![Create admin account](https://botble.com/storage/docs/install-ul/5.png)
 
 - Finish
-![Welcome](https://botble.com/storage/docs/install-ul/6.png)
+![Finish](https://botble.com/storage/docs/install-ul/6.png)
 
 - Video tutorial: https://www.youtube.com/watch?v=PNBeHXDpinI&feature=youtu.be
 

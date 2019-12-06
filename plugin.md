@@ -1,4 +1,4 @@
-#Plugin
+# Plugin
 
 - [Create plugin](#create-plugin)
 - [Activate plugin](#activate-plugin)
@@ -32,7 +32,6 @@ php artisan cms:plugin:deactivate <plugin name>
 <a name="remove-plugin"></a>
 ## Remove a plugin
 **- Command:**
-**- Command:*
 
 ```bash
 php artisan cms:plugin:remove demo
