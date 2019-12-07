@@ -6,6 +6,7 @@
 ## Upgrade to version 1.1
 
 - Override folder `/platform` from new source code.
-- Update file `composer.lock` from new source code then run `composer install` to upgrade vendor packages.
+- Update file `composer.lock` from new source code.
+- Delete folder `/vendor` then run `composer install` to upgrade vendor packages
 - Run `php artisan vendor:publish --tag=cms-public --force` to update assets.
 - Run `php artisan cms:theme:assets:publish` to update theme.
