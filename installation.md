@@ -63,7 +63,14 @@ Note: If you install it locally, you can run `php artisan serve` to start server
 
 * Run `php artisan cms:theme:activate flex-home`
 
-* Run `php artisan cms:theme:assets:publish`
+* This project requires some plugins. Run following commands to activate it.
+
+```
+php artisan cms:plugin:activate real-estate
+php artisan cms:plugin:activate location
+php artisan cms:plugin:activate blog
+php artisan cms:plugin:activate language
+```
 
 * Run `php artisan storage:link`
 
