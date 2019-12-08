@@ -23,6 +23,7 @@
     - [Layouts](theme-layout.md)
     
 - Core
+    - [API](api.md)
     - [Roles & permissions](role_permission.md)
     - [Media](media.md)
     - [Filters](filters.md)
