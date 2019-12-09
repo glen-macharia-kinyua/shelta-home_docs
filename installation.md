@@ -46,6 +46,8 @@ Installation steps:
 - Finish
 ![Finish](https://botble.com/storage/docs/install-ul/6.png)
 
+> {note} After finished installation, please login to admin (/admin) and go to Plugins then activate all plugins to use. 
+
 - Video tutorial: https://www.youtube.com/watch?v=PNBeHXDpinI&feature=youtu.be
 
 Note: If you install it locally, you can run `php artisan serve` to start server then access to `http://localhost:8000/install` to start install by UI.
