@@ -1,7 +1,12 @@
 # Upgrade Guide
 
+- [Upgrade to FlexHome 1.3](#version_1_3)
 - [Upgrade to FlexHome 1.2](#version_1_2)
 - [Upgrade to FlexHome 1.1](#version_1_1)
+
+<a name="version_1_3"></a>
+## Upgrade to version 1.3
+- Override folder `platform`, `public/themes`, `public/vendor` and `vendor` from version 1.3.
 
 <a name="version_1_2"></a>
 ## Upgrade to version 1.2
