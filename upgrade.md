@@ -7,6 +7,9 @@
 <a name="version_1_3"></a>
 ## Upgrade to version 1.3
 - Override folder `platform`, `public/themes`, `public/vendor` and `vendor` from version 1.3.
+- Run command `php artisan migrate` to update database or change column `images` in table `re_properties` & `re_projects` to `TEXT`
+
+![Update images field](./images/fix-images-field.png)
 
 <a name="version_1_2"></a>
 ## Upgrade to version 1.2
