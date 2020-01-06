@@ -1,8 +1,25 @@
 # Upgrade Guide
 
+- [Upgrade to FlexHome 2.0](#version_2_0)
 - [Upgrade to FlexHome 1.3](#version_1_3)
 - [Upgrade to FlexHome 1.2](#version_1_2)
 - [Upgrade to FlexHome 1.1](#version_1_1)
+
+<a name="version_2_0"></a>
+## Upgrade to version 2.0
+
+- Override folder `app`, `platform`, `public/themes` and `public/vendor` from the latest version.
+
+- For developer:
+    - Update file `composer.json` and `composer.lock` from new source code.
+    - Delete folder `/vendor` then run `composer install` to upgrade vendor packages.
+    - Run `php artisan migrate` to update database.
+    
+- For non-developer:
+    - Update folder `/vendor` from the latest version.
+    - Go to Admin -> Plugins then deactivate plugin Real Estate then re-activate it.
+    
+- Go to admin and activate plugins: Social Login, Vendor, Payment.
 
 <a name="version_1_3"></a>
 ## Upgrade to version 1.3
