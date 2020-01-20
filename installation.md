@@ -30,35 +30,7 @@
 
 - Upload all files into `public_html`.
 - Create a database and import data from `database.sql` (it's located in source code).
-- Create `.env` from `.env.example` and update your database information
-- Config for media:
-    + If your hosting support SSH, you just need to cd to `public_html` and run command `php artisan storage:link`
-    + If your hosting doesn't support SSH. You have to open file `config/filesystem.php`
-                                           
-       Then change
-       
-       ```php
-       'public' => [
-           'driver' => 'local',
-           'root' => storage_path('app/public'),
-           'url' => env('APP_URL').'/storage',
-           'visibility' => 'public',
-       ],
-       ```
-       
-       to
-       
-       ```php
-       'public' => [
-           'driver' => 'local',
-           'root' => public_path('storage'),
-           'url' => env('APP_URL').'/storage',
-           'visibility' => 'public',
-       ],
-       ```
-      
-       Copy all files from `/storage/app/public` to `public/storage`.
-
+- Create `.env` from `.env.example` and update your database information.
 
 ## Install locally or in VPS
 
@@ -105,21 +77,20 @@ Note: If you install it locally, you can run `php artisan serve` to start server
 ```
 php artisan cms:plugin:activate real-estate
 php artisan cms:plugin:activate location
+php artisan cms:plugin:activate vendor
+php artisan cms:plugin:activate payment
 php artisan cms:plugin:activate blog
 php artisan cms:plugin:activate language
 ```
 
 * Run `php artisan storage:link`
 
-Note: If you can't run `php artisan storage:link` (some hosting doesn't support it), you can change config
-in `/config/filesystems.php` like this https://prnt.sc/pn50dc then move all uploaded file from `/storage/app/public` to `/public/storage`.
-
-* Run the first test with command `php artisan serve`. Open `http://localhost:8000`, you should see home page of Botble CMS
+* Run the first test with command `php artisan serve`. Open `http://localhost:8000`, you should see home page of Flex Home
 
 
 **If you need sample data, you can import it from `database.sql`**
 
-**FlexHome should run on a virtual host. Create a virtual host like cms.local to run FlexHome. Follow these steps to see how to config virtual host: [Setup virtual host](/flex-home/3.5/virtualhost).** 
+**FlexHome should run on a virtual host. Create a virtual host like cms.local to run FlexHome. Follow these steps to see how to config virtual host: [Setup virtual host](/flex-home/2.3/virtualhost).** 
 
 <a name="note"></a>
 ## Note
@@ -134,7 +105,7 @@ Please remove `public` in your domain also, you can point your domain to `public
 
 or use `.httaccess` (https://stackoverflow.com/questions/23837933/how-can-i-remove-public-index-php-in-the-url-generated-laravel)
 
-Follow these steps to see how to config virtual host: [Setup virtual host](/cms/4.0/virtualhost).
+Follow these steps to see how to config virtual host: [Setup virtual host](/flex-home/2.3/virtualhost).
 
 Well done! Now, you can login to the dashboard by access to your_domain_site/admin.
 

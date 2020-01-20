@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.3](#version_2_3)
 - [FlexHome 2.2](#version_2_2)
 - [FlexHome 2.1](#version_2_1)
 - [FlexHome 2.0](#version_2_0)
@@ -7,6 +8,13 @@
 - [FlexHome 1.2](#version_1_2)
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
+
+<a name="version_2_3"></a>
+### 2020-01-20
+- Add translation plugin to allow administrators translate site from admin panel.
+- Update ckeditor to allow to add image's caption.
+- Fix ACL module.
+- Add license.
 
 <a name="version_2_2"></a>
 ### 2020-01-12
