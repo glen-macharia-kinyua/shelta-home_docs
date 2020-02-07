@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.4](#version_2_4)
 - [FlexHome 2.3](#version_2_3)
 - [FlexHome 2.2](#version_2_2)
 - [FlexHome 2.1](#version_2_1)
@@ -8,6 +9,15 @@
 - [FlexHome 1.2](#version_1_2)
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
+
+<a name="version_2_4"></a>
+### 2020-02-08
+- Improve theme UI.
+- Update payment plugin.
+- Fix bug when searching properties in the admin panel.
+- Fix consult email template.
+- Fix installer package.
+- Refactor code.
 
 <a name="version_2_3"></a>
 ### 2020-01-20
