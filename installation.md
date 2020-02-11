@@ -34,6 +34,27 @@
 
 ## Install locally or in VPS
 
+### Install manually
+
+* Create `.env` file from `.env-example` and update your configuration
+
+* Run `php artisan migrate` to create database structure with no sample data or import default database from `database.sql` if you need sample data.
+
+* Run `php artisan cms:user:create` to create admin user
+
+* Run `php artisan vendor:publish --tag=cms-public --force`
+
+* Run `php artisan cms:theme:activate flex-home`
+
+* Go to Admin -> Plugins then activate all plugins
+
+* Run the first test with command `php artisan serve`. Open `http://localhost:8000`, you should see home page of Flex Home
+
+
+**If you need sample data, you can import it from `database.sql`**
+
+**FlexHome should run on a virtual host. Create a virtual host like cms.local to run FlexHome. Follow these steps to see how to config virtual host: [Setup virtual host](/flex-home/2.3/virtualhost).** 
+
 ### Install by UI
 Installation steps:
 
@@ -58,39 +79,6 @@ Installation steps:
 
 Note: If you install it locally, you can run `php artisan serve` to start server then access to `http://localhost:8000/install` to start install by UI.
 
-### Install manual
-
-* Run `composer install` to download vendor packages (if you're using Windows, please delete folder `/vendor` then run `composer install`)
-
-* Create `.env` file from `.env-example` and update your configuration
-
-* Run `php artisan migrate` to create database structure with no sample data or import default database from `database.sql` if you need sample data.
-
-* Run `php artisan cms:user:create` to create admin user
-
-* Run `php artisan vendor:publish --tag=cms-public --force`
-
-* Run `php artisan cms:theme:activate flex-home`
-
-* This project requires some plugins. Run following commands to activate it.
-
-```
-php artisan cms:plugin:activate real-estate
-php artisan cms:plugin:activate location
-php artisan cms:plugin:activate vendor
-php artisan cms:plugin:activate payment
-php artisan cms:plugin:activate blog
-php artisan cms:plugin:activate language
-```
-
-* Run `php artisan storage:link`
-
-* Run the first test with command `php artisan serve`. Open `http://localhost:8000`, you should see home page of Flex Home
-
-
-**If you need sample data, you can import it from `database.sql`**
-
-**FlexHome should run on a virtual host. Create a virtual host like cms.local to run FlexHome. Follow these steps to see how to config virtual host: [Setup virtual host](/flex-home/2.3/virtualhost).** 
 
 <a name="note"></a>
 ## Note
@@ -105,7 +93,7 @@ Please remove `public` in your domain also, you can point your domain to `public
 
 or use `.httaccess` (https://stackoverflow.com/questions/23837933/how-can-i-remove-public-index-php-in-the-url-generated-laravel)
 
-Follow these steps to see how to config virtual host: [Setup virtual host](/flex-home/2.3/virtualhost).
+Follow these steps to see how to config virtual host: [Setup virtual host](/flex-home/2.x/virtualhost).
 
 Well done! Now, you can login to the dashboard by access to your_domain_site/admin.
 
