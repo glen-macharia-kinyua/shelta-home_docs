@@ -10,11 +10,11 @@
 
 FlexHome is a real-estate system using Laravel 6.x. It's a product built on Botble CMS
 
-Created: `17/12/2017`
+Created: `03/12/2019`
 
 By: [Botble Technologies](https://botble.com)
 
-Email: [sangnguyenplus@gmail.com](mailto:sangnguyenplus@gmail.com)
+Email: [contact@botble.com](mailto:contact@botble.com)
 
 Thank you for purchasing this product. If you have any questions that are beyond the scope of this help file, 
 please feel free to email via my user page contact form [here](https://codecanyon.net.net/user/botble) for quickly support. Thank you so much!
