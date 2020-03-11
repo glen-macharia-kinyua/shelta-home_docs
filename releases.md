@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.5](#version_2_5)
 - [FlexHome 2.4](#version_2_4)
 - [FlexHome 2.3](#version_2_3)
 - [FlexHome 2.2](#version_2_2)
@@ -9,6 +10,13 @@
 - [FlexHome 1.2](#version_1_2)
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
+
+<a name="version_2_5"></a>
+### 2020-03-12
+- Upgrade to Botble CMS v5.2 (using Laravel framework 7.x)
+- Improve theme UI.
+- Update payment, vendor, real-estate plugin.
+- Refactor code.
 
 <a name="version_2_4"></a>
 ### 2020-02-08
