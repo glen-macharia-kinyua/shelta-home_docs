@@ -8,7 +8,7 @@
 <a name="introduction"></a>
 ## Introduction
 
-FlexHome is a real-estate system using Laravel 7.x. It's a product built on Botble CMS
+FlexHome is a real-estate system using Laravel 7.x. It's a product built on Botble CMS.
 
 Created: `03/12/2019`
 
