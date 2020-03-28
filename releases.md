@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.6](#version_2_6)
 - [FlexHome 2.5](#version_2_5)
 - [FlexHome 2.4](#version_2_4)
 - [FlexHome 2.3](#version_2_3)
@@ -10,6 +11,12 @@
 - [FlexHome 1.2](#version_1_2)
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
+
+<a name="version_2_6"></a>
+### 2020-03-28
+- Display property's status. Allow sold, rented properties to show on homepage.
+- Allow free plan packages. Now, new users can get 1 credit for free.
+- Allow to change theme primary color.
 
 <a name="version_2_5"></a>
 ### 2020-03-12
