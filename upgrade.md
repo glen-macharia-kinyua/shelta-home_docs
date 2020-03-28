@@ -13,7 +13,7 @@
 
 <a name="version_2_6"></a>
 ## Upgrade to version 2.6
-- Override folder `app`, `config`, `platform`, `public/themes` and `public/vendor` from the latest version.
+- Override folder `app`, `config`, `platform`, `public/themes`, `public/vendor` and `resources` from the latest version.
 
 - For developer:
     - Update file `composer.json` and `composer.lock` from new source code.
