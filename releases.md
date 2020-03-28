@@ -17,6 +17,9 @@
 - Display property's status. Allow sold, rented properties to show on homepage.
 - Allow free plan packages. Now, new users can get 1 credit for free.
 - Allow to change theme primary color.
+- Fix search properties, projects.
+- Improve performance & clean source code.
+- Update to the latest Laravel version 7.3
 
 <a name="version_2_5"></a>
 ### 2020-03-12
