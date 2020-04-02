@@ -34,13 +34,14 @@
 
 ## Install locally or in VPS
 
+- Delete folder `/vendor/botble` then run `composer install` to install vendor packages.
+
 - Create `.env` file from `.env-example` and update your configuration.
 
 - Using sample data: 
     - Import database from `database.sql`.
     
 - Don't use sample data:
-    - Run `composer install` to install vendor packages.
     
     - Run `php artisan migrate` to create database structure.
 
@@ -58,6 +59,9 @@
     - If you're using sample data, the default admin account is `botble` - `159357`.
     - If you don't use sample data, you need to go to Admin -> Plugins then activate all plugins.
 
+> {note} If you're a Laravel developer or you want to customize our source code in folder `platform/core` & `platform/packages`, 
+> please delete folder `vendor` then run `composer install` to re-install vendor packages before starting change our source code.
+>
 **FlexHome should run on a virtual host. Create a virtual host like cms.local to run FlexHome. Follow these steps to see how to config virtual host: [Setup virtual host](/flex-home/master/virtualhost).** 
 
 <a name="note"></a>
