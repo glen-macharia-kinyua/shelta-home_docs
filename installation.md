@@ -23,7 +23,7 @@
 - Module Re_write server
 - PHP_CURL Module Enable
 
->  {warning} On this project, I use the latest Laravel version (currently 6.x). Please go to [Laravel documentation page](https://laravel.com/docs) for more information.
+>  {warning} On this project, I use the latest Laravel version (currently 7.x). Please go to [Laravel documentation page](https://laravel.com/docs) for more information.
 
 <a name="installation"></a>
 ## Install on hosting
@@ -33,8 +33,6 @@
 - Create `.env` from `.env.example` and update your database information.
 
 ## Install locally or in VPS
-
-### Install manually
 
 * Create `.env` file from `.env-example` and update your configuration
 
@@ -56,31 +54,6 @@
 **If you need sample data, you can import it from `database.sql`**
 
 **FlexHome should run on a virtual host. Create a virtual host like cms.local to run FlexHome. Follow these steps to see how to config virtual host: [Setup virtual host](/flex-home/2.3/virtualhost).** 
-
-### Install by UI
-Installation steps:
-
-- Access to `your-domain.com/install` to start install Flex Home.
-![Welcome](https://botble.com/storage/docs/install-ul/1.png)
-
-- Check server's requirements
-![Check requirements](https://botble.com/storage/docs/install-ul/2.png)
-
-- Config database information
-![Config database](https://botble.com/storage/docs/install-ul/3.png)
-
-- Create admin account
-![Create admin account](https://botble.com/storage/docs/install-ul/5.png)
-
-- Finish
-![Finish](https://botble.com/storage/docs/install-ul/6.png)
-
-> {note} After finished installation, please login to admin (/admin) and go to Plugins then activate all plugins to use. 
-
-- Video tutorial: https://www.youtube.com/watch?v=PNBeHXDpinI&feature=youtu.be
-
-Note: If you install it locally, you can run `php artisan serve` to start server then access to `http://localhost:8000/install` to start install by UI.
-
 
 <a name="note"></a>
 ## Note
