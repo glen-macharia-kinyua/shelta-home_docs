@@ -9,4 +9,5 @@
     
 - Available plugins
     - [Analytics](plugin-analytics.md)
+    - [Backup](plugin-backup.md)
     - [Language](plugin-language.md)

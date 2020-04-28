@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.7](#version_2_7)
 - [FlexHome 2.6](#version_2_6)
 - [FlexHome 2.5](#version_2_5)
 - [FlexHome 2.4](#version_2_4)
@@ -11,6 +12,22 @@
 - [FlexHome 1.2](#version_1_2)
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
+
+<a name="version_2_7"></a>
+### 01-05-2020
+
+- Update to the latest Laravel version 7.8.
+- Refactor code & optimize performance.
+- Add backup commands:
+    - php artisan cms:backup:create
+    - php artisan cms:backup:restore
+    - php artisan cms:backup:remove
+    - php artisan cms:backup:list
+- Fix image's watermark.
+- Change default avatar, remove Gravatar as default avatar.
+- Fix widget & plugin language.
+- Remove package `davejamesmiller/laravel-breadcrumbs`, build own breadcrumbs.
+- Fix theme options when using `editor` field.
 
 <a name="version_2_6"></a>
 ### 2020-03-28
