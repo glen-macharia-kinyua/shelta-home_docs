@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.8](#version_2_8)
 - [FlexHome 2.7](#version_2_7)
 - [FlexHome 2.6](#version_2_6)
 - [FlexHome 2.5](#version_2_5)
@@ -12,6 +13,17 @@
 - [FlexHome 1.2](#version_1_2)
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
+
+<a name="version_2_8"></a>
+### 29-05-2020
+
+- Update to the latest Laravel version 7.13.
+- Fix bug on "Properties by locations" shortcode.
+- Improve media module: support upload chunk size.
+- Improve email system.
+- Upgrade jQuery to v3.5.1 and Bootstrap 4.5.0.
+- Improve admin UI.
+- Refactor code.
 
 <a name="version_2_7"></a>
 ### 01-05-2020
