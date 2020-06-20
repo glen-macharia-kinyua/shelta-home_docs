@@ -5,6 +5,7 @@
     - [Upgrade Guide](upgrade.md)
 - Getting Started
     - [Installation](installation.md)
+    - [License](license.md)
     - [API](api.md)
     
 - Available plugins
