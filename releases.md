@@ -15,7 +15,7 @@
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
 
-## Botble 2.9.1
+## FlexHome 2.9.1
 ### 09-07-2020
 
 - Add support DigitalOcean Spaces
