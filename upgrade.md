@@ -1,5 +1,6 @@
 # Upgrade Guide
 
+- [Upgrade to FlexHome 2.10](#version_2_10)
 - [Upgrade to FlexHome 2.9](#version_2_9)
 - [Upgrade to FlexHome 2.8](#version_2_8)
 - [Upgrade to FlexHome 2.7](#version_2_7)
@@ -14,6 +15,15 @@
 - [Upgrade to FlexHome 1.2](#version_1_2)
 - [Upgrade to FlexHome 1.1](#version_1_1)
 
+<a name="version_2_10"></a>
+## Upgrade to version 2.10
+- Override folder `app`, `config`, `platform`, `public/themes`, `public/vendor` and `resources` from the latest version.
+
+- For developer:
+    - Update file `composer.json` and `composer.lock` from new source code.
+    - Delete folder `/vendor` then run `composer install` to upgrade vendor packages.
+    - Run `php artisan migrate` to update database.
+    
 <a name="version_2_9"></a>
 ## Upgrade to version 2.9
 - Override folder `app`, `config`, `platform`, `public/themes`, `public/vendor` and `resources` from the latest version.
