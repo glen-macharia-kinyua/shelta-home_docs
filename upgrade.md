@@ -1,5 +1,6 @@
 # Upgrade Guide
 
+- [Upgrade to FlexHome 2.11](#version_2_11)
 - [Upgrade to FlexHome 2.10](#version_2_10)
 - [Upgrade to FlexHome 2.9](#version_2_9)
 - [Upgrade to FlexHome 2.8](#version_2_8)
@@ -15,6 +16,20 @@
 - [Upgrade to FlexHome 1.2](#version_1_2)
 - [Upgrade to FlexHome 1.1](#version_1_1)
 
+<a name="version_2_11"></a>
+## Upgrade to version 2.11
+- Delete folder `platform/plugins/vendor`.
+- Override folder `app`, `config`, `platform`, `public/themes`, `public/vendor` and `resources` from the latest version.
+
+- For developer:
+    - Update file `composer.json` and `composer.lock` from new source code.
+    - Delete folder `/vendor` then run `composer install` to upgrade vendor packages.
+    - Run `php artisan migrate` to update database.
+    
+For non-developer:
+    - Override folder `/vendor` from the latest version.
+    - Go to Admin -> Plugins then deactivate plugin Real Estate, Career then re-activate it.
+    
 <a name="version_2_10"></a>
 ## Upgrade to version 2.10
 - Override folder `app`, `config`, `platform`, `public/themes`, `public/vendor` and `resources` from the latest version.

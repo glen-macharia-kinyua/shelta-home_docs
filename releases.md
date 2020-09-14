@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.11](#version_2_11)
 - [FlexHome 2.10](#version_2_10)
 - [FlexHome 2.9](#version_2_9)
 - [FlexHome 2.8](#version_2_8)
@@ -15,6 +16,31 @@
 - [FlexHome 1.2](#version_1_2)
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
+
+## FlexHome 2.11
+### 15-09-2020
+
+- Update to Laravel version 7.28
+- Merge plugin Vendor into plugin Real Estate.
+- Support chunk upload in agent dashboard.
+- Add agent page. Ex: https://flex-home.botble.com/agents/randy-koelpin-5
+- Add Distance key between facilities.
+- Update homepage & blog page settings. Now, it's moved into Appearance -> Theme options.
+- Move settings for Cookie Consent into Appearance -> Theme options.
+- Add theme options to enable/disable Facebook chat, Facebook comment.
+- Add settings for watermark. Now, you can add watermark by changing setting in Admin -> Settings -> Media.
+- Allow to change permalink in Admin -> Settings -> Permalinks.
+- Add language settings. Allow to set default language in Admin -> Settings -> General.
+- Allow admin to login using email or username.
+- Optimize queries to make site loads faster.
+- Update UI.
+- Refactor code.
+- Fix duplicate settings.
+- Fix responsive in agent dashboard.
+- Fix UI social login buttons.
+- Fix webpack.mix.js config, issue with path on Windows.
+- Fix assets path.
+- Fix copy folder in Admin -> Media.
 
 ## FlexHome 2.10
 ### 05-08-2020
