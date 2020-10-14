@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.12](#version_2_12)
 - [FlexHome 2.11](#version_2_11)
 - [FlexHome 2.10](#version_2_10)
 - [FlexHome 2.9](#version_2_9)
@@ -17,9 +18,24 @@
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
 
+## FlexHome 2.12
+### Oct 14, 2020
+- Add filter by location.
+- Add export properties/projects to csv, excel.
+- Fix multi-language with Ajax.
+- Fix views count.
+- Fix properties table.
+- Fix save property's facilities.
+- Update permissions config.
+- Update email encryption settings.
+- Improve Recaptcha: add an option to hide v3 badge.
+- Improve payment via PayPal.
+- Improve export posts to csv, excel.
+- Improve theme UI.
+- Refactor code.
+
 ## FlexHome 2.11
 ### 15-09-2020
-
 - Update to Laravel version 7.28
 - Merge plugin Vendor into plugin Real Estate.
 - Support chunk upload in agent dashboard.
