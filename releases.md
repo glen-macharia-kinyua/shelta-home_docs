@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.13](#version_2_13)
 - [FlexHome 2.12](#version_2_12)
 - [FlexHome 2.11](#version_2_11)
 - [FlexHome 2.10](#version_2_10)
@@ -17,6 +18,17 @@
 - [FlexHome 1.2](#version_1_2)
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
+
+## FlexHome 2.13
+### Oct 27, 2020
+- Add RTL support.
+- Fix error when activating plugin Real Estate.
+- Fix upload images in vendor dashboard.
+- Fix bug update facility distances.
+- Update missing translations.
+- Improve UI homepage search box.
+- Improve performance.
+
 
 ## FlexHome 2.12
 ### Oct 14, 2020
