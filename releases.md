@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.14](#version_2_14)
 - [FlexHome 2.13](#version_2_13)
 - [FlexHome 2.12](#version_2_12)
 - [FlexHome 2.11](#version_2_11)
@@ -18,6 +19,20 @@
 - [FlexHome 1.2](#version_1_2)
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
+
+## FlexHome 2.14
+### Nov 14, 2020
+- Update menu: optimize queries, cache menu URL for better performance.
+- Optimize queries on menu & widgets.
+- Update Cookie consent: Add option to change background color, text color.
+- Update error pages, make it more beautiful.
+- Update UI contact form.
+- Improve permalink & custom CSS page.
+- Improve Analytics plugin, make it compatible with PHP 7.4.
+- Fix UI homepage search box on mobile.
+- Fix theme translations: new keys in English doesn't show in other languages.
+- Fix IP in activity logs, allow IP v6.
+- Refactor code.
 
 ## FlexHome 2.13
 ### Oct 27, 2020
