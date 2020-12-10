@@ -21,7 +21,7 @@
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
 
-## FlexHome 2.16
+## FlexHome 2.15
 ### Dec 10, 2020
 - Add multi-currency.
 - Add advanced search on homepage.
