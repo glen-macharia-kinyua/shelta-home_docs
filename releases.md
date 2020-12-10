@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.15](#version_2_15)
 - [FlexHome 2.14](#version_2_14)
 - [FlexHome 2.13](#version_2_13)
 - [FlexHome 2.12](#version_2_12)
@@ -19,6 +20,18 @@
 - [FlexHome 1.2](#version_1_2)
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
+
+## FlexHome 2.16
+### Dec 10, 2020
+- Add multi-currency.
+- Add advanced search on homepage.
+- Add sort properties in properties page.
+- Improve contact page.
+- Improve responsive.
+- Update translations, added missing keys.
+- Improve DO Spaces integration.
+- Fix roles & permissions.
+- Optimize page speed and performance.
 
 ## FlexHome 2.14
 ### Nov 14, 2020

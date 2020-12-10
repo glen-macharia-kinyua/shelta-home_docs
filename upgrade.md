@@ -1,5 +1,6 @@
 # Upgrade Guide
 
+- [Upgrade to FlexHome 2.15](#version_2_15)
 - [Upgrade to FlexHome 2.14](#version_2_14)
 - [Upgrade to FlexHome 2.13](#version_2_13)
 - [Upgrade to FlexHome 2.12](#version_2_12)
@@ -18,6 +19,27 @@
 - [Upgrade to FlexHome 1.3](#version_1_3)
 - [Upgrade to FlexHome 1.2](#version_1_2)
 - [Upgrade to FlexHome 1.1](#version_1_1)
+
+<a name="version_2_15"></a>
+- Override folder `app`, `config`, and `platform` from the latest version.
+
+- For developers:
+  - Update file `composer.json` and `composer.lock` from new source code.
+  - Delete folder `/vendor` then run `composer install` to upgrade vendor packages.
+  - Delete folder `public/vendor` and run command `php artisan vendor:publish --tag=cms-public --force`
+  - Delete folder `public/themes` and run command `php artisan cms:theme:assets:publish`
+  - Run command `php artisan vendor:publish --tag=cms-lang --force` to update translations.
+  - Run `php artisan optimize:clear` to clear cache.
+
+- For non-developers:
+  - Override folder `public/themes`, `public/vendor`, `bootstrap`, `vendor` from the latest version.
+  - Delete all files in `storage/framework/views` and `storage/framework/cache`.
+  - Go to Admin -> Translations -> Admin translations then click on `Import group` to update translations.
+  - Go to Admin -> Plugins then deactivate plugin Real Estate then re-activate it.
+
+- Important changes: 
+  - If you have customized Flex Home theme, you need to make sure is updated. Function `getIndex()` and `getView()` are deleted in `platform/themes/flex-home/src/Http/Controllers/FlexHomeController.php`.
+  
 
 <a name="version_2_14"></a>
 - Override folder `app`, `config`, and `platform` from the latest version.
