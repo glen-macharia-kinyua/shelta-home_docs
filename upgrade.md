@@ -38,7 +38,7 @@
   - Go to Admin -> Plugins then deactivate plugin Real Estate then re-activate it.
 
 - Important changes: 
-  - If you have customized Flex Home theme, you need to make sure is updated. Function `getIndex()` and `getView()` are deleted in `platform/themes/flex-home/src/Http/Controllers/FlexHomeController.php`.
+  - If you have customized Flex Home theme source code, you need to make sure is updated. Function `getIndex()` and `getView()` are deleted in `platform/themes/flex-home/src/Http/Controllers/FlexHomeController.php`.
   
 
 <a name="version_2_14"></a>
