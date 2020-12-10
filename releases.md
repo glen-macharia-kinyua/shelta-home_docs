@@ -24,8 +24,8 @@
 ## FlexHome 2.15
 ### Dec 10, 2020
 - Add multi-currency.
-- Add advanced search on homepage.
-- Add sort properties in properties page.
+- Add advanced search on the homepage.
+- Add sort properties on the properties page.
 - Improve contact page.
 - Improve responsive.
 - Update translations, added missing keys.
