@@ -21,6 +21,7 @@
 - [Upgrade to FlexHome 1.1](#version_1_1)
 
 <a name="version_2_15"></a>
+## Upgrade to version 2.15
 - Override folder `app`, `config`, and `platform` from the latest version.
 
 - For developers:
@@ -42,6 +43,7 @@
   
 
 <a name="version_2_14"></a>
+## Upgrade to version 2.14
 - Override folder `app`, `config`, and `platform` from the latest version.
 
 - For developers:
@@ -59,6 +61,7 @@
     - Go to Admin -> Plugins then deactivate plugin Real Estate then re-activate it.
     
 <a name="version_2_13"></a>
+## Upgrade to version 2.13
 - Override folder `app`, `config`, and `platform` from the latest version.
 
 - For developers:
@@ -76,6 +79,7 @@
     - Go to Admin -> Plugins then deactivate plugin Real Estate then re-activate it.
     
 <a name="version_2_12"></a>
+## Upgrade to version 2.12
 - Override folder `app`, `config`, and `platform` from the latest version.
 
 - For developers:
