@@ -38,6 +38,8 @@
   - Delete all files in `storage/framework/views` and `storage/framework/cache`.
   - Go to Admin -> Translations -> Admin translations then click on `Import group` to update translations.
   
+- Go to Admin -> Plugins and activate plugin RSS Feed.
+
 <a name="version_2_15"></a>
 ## Upgrade to version 2.15
 - Override folder `app`, `config`, and `platform` from the latest version.
