@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.16](#version_2_16)
 - [FlexHome 2.15](#version_2_15)
 - [FlexHome 2.14](#version_2_14)
 - [FlexHome 2.13](#version_2_13)
@@ -20,6 +21,17 @@
 - [FlexHome 1.2](#version_1_2)
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
+
+## FlexHome 2.16
+### Jan 13, 2021
+- Add wishlist (favorites properties).
+- Add RSS feed for posts [https://flex-home.botble.com/feed/posts](https://flex-home.botble.com/feed/posts) and properties [https://flex-home.botble.com/feed/properties](https://flex-home.botble.com/feed/properties)
+- Count number of images for each property https://prnt.sc/wma0e7.
+- Improve contact form.
+- Fix bug on add/edit property (rent/sale option).
+- Fix save facilities.
+- Remove unused CSS/JS to make site loads faster.
+- Update translations.
 
 ## FlexHome 2.15
 ### Dec 10, 2020
