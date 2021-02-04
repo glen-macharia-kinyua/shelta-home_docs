@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.17](#version_2_17)
 - [FlexHome 2.16](#version_2_16)
 - [FlexHome 2.15](#version_2_15)
 - [FlexHome 2.14](#version_2_14)
@@ -21,6 +22,21 @@
 - [FlexHome 1.2](#version_1_2)
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
+
+## FlexHome 2.17
+### Feb 04, 2021
+- Upgraded to Laravel 8.
+- Update JS/CSS assets.
+- Allow to config thousands & decimal separators.
+- Add username in the registration form.
+- Improve admin language settings.
+- Improve permalinks.
+- Prevent access Ajax URLs.
+- Fix language plugin.
+- Fix bug locale & account's username.
+- Fix missing pagination in careers page
+- Fix bugs on PHP 8.
+- Refactor code & optimize UI.
 
 ## FlexHome 2.16
 ### Jan 13, 2021
