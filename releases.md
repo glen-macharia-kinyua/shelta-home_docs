@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.18](#version_2_18)
 - [FlexHome 2.17](#version_2_17)
 - [FlexHome 2.16](#version_2_16)
 - [FlexHome 2.15](#version_2_15)
@@ -22,6 +23,19 @@
 - [FlexHome 1.2](#version_1_2)
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
+
+## FlexHome 2.18
+### Feb 18, 2021
+- Update screenshot & allow display shortcode in career page.
+- Allow to insert youtube video in the property's detail.
+- Improve page SEO meta.
+- Improve breadcrumbs.
+- Fix search box.
+- Fix projects page.
+- Fix bug on Location plugin when country/state disabled.
+- Fix Custom CSS.
+- Fix bug Editor on PHP 8.
+- Refactor code & improve queries for better performance.
 
 ## FlexHome 2.17
 ### Feb 04, 2021
