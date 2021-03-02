@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.19](#version_2_19)
 - [FlexHome 2.18](#version_2_18)
 - [FlexHome 2.17](#version_2_17)
 - [FlexHome 2.16](#version_2_16)
@@ -23,6 +24,19 @@
 - [FlexHome 1.2](#version_1_2)
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
+
+## FlexHome 2.19
+### Mar 02, 2021
+- Added SSLCommerz payment gateway.
+- New option to disable visitors to register account and post their properties/
+- New option to add custom JS in Admin -> Appearance -> Custom JS.
+- Added setting in Admin -> Settings -> General to change login screen backgrounds.
+- Improve process booking speed.
+- Improve dashboard widgets.
+- Improve page SEO meta.
+- Improve breadcrumbs.
+- Fix permission issue on Contact plugin.
+- Fix some bugs on PHP 8.
 
 ## FlexHome 2.18
 ### Feb 18, 2021
