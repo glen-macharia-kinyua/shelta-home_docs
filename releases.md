@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.20](#version_2_20)
 - [FlexHome 2.19](#version_2_19)
 - [FlexHome 2.18](#version_2_18)
 - [FlexHome 2.17](#version_2_17)
@@ -24,6 +25,13 @@
 - [FlexHome 1.2](#version_1_2)
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
+
+## FlexHome 2.19
+### Mar 02, 2021
+- Add options to set latitude & longitude.
+- Fix RTL on account dashboard.
+- Update email templates. 
+- Fix bug Serialization of 'GdImage' is not allowed.
 
 ## FlexHome 2.19
 ### Mar 02, 2021
