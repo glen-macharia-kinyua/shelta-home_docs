@@ -26,10 +26,10 @@
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
 
-## FlexHome 2.19
+## FlexHome 2.20
 ### Mar 02, 2021
 - Add options to set latitude & longitude.
-- Fix RTL on account dashboard.
+- Fix RTL on the account dashboard.
 - Update email templates. 
 - Fix bug Serialization of 'GdImage' is not allowed.
 
