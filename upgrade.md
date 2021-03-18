@@ -38,11 +38,13 @@
   - Delete folder `public/vendor` and run command `php artisan vendor:publish --tag=cms-public --force`
   - Delete folder `public/themes` and run command `php artisan cms:theme:assets:publish`
   - Run command `php artisan vendor:publish --tag=cms-lang --force` to update translations.
+  - Run `php artisan migrate` to update database.
   - Run `php artisan optimize:clear` to clear cache.
 
 - For non-developers:
   - Override folder `public/themes`, `public/vendor`, `bootstrap`, `vendor` from the latest version.
   - Delete all files in `storage/framework/views` and `storage/framework/cache`.
+  - Go to Admin -> Plugins then deactivate plugin Real Estate then re-activate it.
   - Go to Admin -> Translations -> Admin translations then click on `Import group` to update translations.
   
 <a name="version_2_19"></a>
