@@ -27,7 +27,7 @@
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
 
-<a name="version_2_21></a>
+<a name="version_2_21"></a>
 ## FlexHome 2.20
 ### Apr 09, 2021
 - Add option to turn off automatic URL translation into Latin.
@@ -37,7 +37,7 @@
 - Refactor code & optimize performance.
 - Optimize queries.
 
-<a name="version_2_20></a>
+<a name="version_2_20"></a>
 ## FlexHome 2.20
 ### Mar 02, 2021
 - Add options to set latitude & longitude.
