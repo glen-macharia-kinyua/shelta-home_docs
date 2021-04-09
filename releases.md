@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.21](#version_2_21)
 - [FlexHome 2.20](#version_2_20)
 - [FlexHome 2.19](#version_2_19)
 - [FlexHome 2.18](#version_2_18)
@@ -26,6 +27,17 @@
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
 
+<a name="version_2_21></a>
+## FlexHome 2.20
+### Apr 09, 2021
+- Add option to turn off automatic URL translation into Latin.
+- Add option to force URL & schema.
+- Improve email templates.
+- Fix bug Serialization of 'GdImage' is not allowed.
+- Refactor code & optimize performance.
+- Optimize queries.
+
+<a name="version_2_20></a>
 ## FlexHome 2.20
 ### Mar 02, 2021
 - Add options to set latitude & longitude.
@@ -33,6 +45,7 @@
 - Update email templates. 
 - Fix bug Serialization of 'GdImage' is not allowed.
 
+<a name="version_2_19"></a>
 ## FlexHome 2.19
 ### Mar 02, 2021
 - Added SSLCommerz payment gateway.
@@ -46,6 +59,7 @@
 - Fix permission issue on Contact plugin.
 - Fix some bugs on PHP 8.
 
+<a name="version_2_18"></a>
 ## FlexHome 2.18
 ### Feb 18, 2021
 - Update screenshot & allow display shortcode in career page.
@@ -59,6 +73,7 @@
 - Fix bug Editor on PHP 8.
 - Refactor code & improve queries for better performance.
 
+<a name="version_2_17"></a>
 ## FlexHome 2.17
 ### Feb 04, 2021
 - Upgraded to Laravel 8.
@@ -74,6 +89,7 @@
 - Fix bugs on PHP 8.
 - Refactor code & optimize UI.
 
+<a name="version_2_16"></a>
 ## FlexHome 2.16
 ### Jan 13, 2021
 - Add wishlist (favorites properties).
@@ -85,6 +101,7 @@
 - Remove unused CSS/JS to make site loads faster.
 - Update translations.
 
+<a name="version_2_15"></a>
 ## FlexHome 2.15
 ### Dec 10, 2020
 - Add multi-currency.
@@ -97,6 +114,7 @@
 - Fix roles & permissions.
 - Optimize page speed and performance.
 
+<a name="version_2_14"></a>
 ## FlexHome 2.14
 ### Nov 14, 2020
 - Update menu: optimize queries, cache menu URL for better performance.
@@ -111,6 +129,7 @@
 - Fix IP in activity logs, allow IP v6.
 - Refactor code.
 
+<a name="version_2_13"></a>
 ## FlexHome 2.13
 ### Oct 27, 2020
 - Add RTL support.
@@ -121,7 +140,7 @@
 - Improve UI homepage search box.
 - Improve performance.
 
-
+<a name="version_2_12"></a>
 ## FlexHome 2.12
 ### Oct 14, 2020
 - Add filter by location.
@@ -138,6 +157,7 @@
 - Improve theme UI.
 - Refactor code.
 
+<a name="version_2_11"></a>
 ## FlexHome 2.11
 ### 15-09-2020
 - Update to Laravel version 7.28
@@ -161,6 +181,7 @@
 - Fix assets path.
 - Fix copy folder in Admin -> Media.
 
+<a name="version_2_10"></a>
 ## FlexHome 2.10
 ### 05-08-2020
 - Upgrade to the latest Laravel framework version 7.22.
