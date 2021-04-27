@@ -1,5 +1,6 @@
 # Upgrade Guide
 
+- [Upgrade to FlexHome 2.22](#version_2_22)
 - [Upgrade to FlexHome 2.21](#version_2_21)
 - [Upgrade to FlexHome 2.20](#version_2_20)
 - [Upgrade to FlexHome 2.19](#version_2_19)
@@ -26,6 +27,30 @@
 - [Upgrade to FlexHome 1.2](#version_1_2)
 - [Upgrade to FlexHome 1.1](#version_1_1)
 
+<a name="version_2_22"></a>
+## Upgrade to version 2.22
+
+>  {warning} This version requires PHP >= 7.3, make sure your hosting support PHP 7.3 or higher.
+
+- For developers:
+  - Override folder `app`, `config`, `platform`, `public/themes`, `public/vendor` and `public/index.php` from the latest version.
+  - Update file `composer.json` and `composer.lock` from new source code.
+  - Delete folder `/vendor` then run `composer install` to upgrade vendor packages.
+  - Delete folder `public/vendor` and run command `php artisan vendor:publish --tag=cms-public --force`
+  - Delete folder `public/themes` and run command `php artisan cms:theme:assets:publish`
+  - Run command `php artisan vendor:publish --tag=cms-lang --force` to update translations.
+  - Run `php artisan migrate` to update database.
+  - Run `php artisan optimize:clear` to clear cache.
+
+- For non-developers:
+  - Override folder `app`, `config`, `platform`, `public/themes`, `public/vendor` and `public/index.php` from the latest version.
+  - Override folder `public/themes`, `public/vendor`, `bootstrap`, `vendor` from the latest version.
+  - Delete all files in `storage/framework/views` and `storage/framework/cache`.
+  - Go to Admin -> Plugins then deactivate plugin Payment and Real Estate then re-activate it.
+  - Go to Admin -> Translations -> Admin translations then click on `Import group` to update translations.
+
+>  {warning} To show properties on maps, you will need to update property's latitude and property's longitude in property editing page.
+  
 <a name="version_2_21"></a>
 ## Upgrade to version 2.21
 

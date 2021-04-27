@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.22](#version_2_22)
 - [FlexHome 2.21](#version_2_21)
 - [FlexHome 2.20](#version_2_20)
 - [FlexHome 2.19](#version_2_19)
@@ -27,8 +28,20 @@
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
 
+<a name="version_2_22"></a>
+## FlexHome 2.22
+### Apr 09, 2021
+- Big update on the UI: 
+  - Change the main menu to tab from right to left. 
+  - Change properties page to half map.
+  - Change filters on mobile to popup to reduce height.
+- Filter properties, projects by Ajax.
+- Add Leaflet map and display properties on map.
+- Allow admin to change member's profile image.
+- Optimize queries to make it loads faster.
+
 <a name="version_2_21"></a>
-## FlexHome 2.20
+## FlexHome 2.21
 ### Apr 09, 2021
 - Add option to turn off automatic URL translation into Latin.
 - Add option to force URL & schema.
