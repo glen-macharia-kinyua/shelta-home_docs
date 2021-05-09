@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.23](#version_2_23)
 - [FlexHome 2.22](#version_2_22)
 - [FlexHome 2.21](#version_2_21)
 - [FlexHome 2.20](#version_2_20)
@@ -27,6 +28,17 @@
 - [FlexHome 1.2](#version_1_2)
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
+
+<a name="version_2_23"></a>
+## FlexHome 2.23
+### May 10, 2021
+- Add property/project video (Support YouTube video only).
+- Fix change user's password.
+- Remove unused services in Google Client API services to reduce app size.
+- Update theme options & handle errors when saving custom CSS.
+- Improve UI.
+- Optimize queries.
+- Refactor code & improve performance.
 
 <a name="version_2_22"></a>
 ## FlexHome 2.22
