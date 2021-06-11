@@ -30,9 +30,9 @@
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
 
-<a name="version_2_23"></a>
-## FlexHome 2.23
-### May 10, 2021
+<a name="version_2_24"></a>
+## FlexHome 2.24
+### June 11, 2021
 - Added recently viewed properties.
 - Added Agents page & featured agents shortcode.
 - Fix issue when using Stripe and Razorpay together.
