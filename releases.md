@@ -33,6 +33,7 @@
 <a name="version_2_24"></a>
 ## FlexHome 2.24
 ### June 11, 2021
+- Added RTL support for the admin panel.
 - Added recently viewed properties.
 - Added Agents page & featured agents shortcode.
 - Fix issue when using Stripe and Razorpay together.
