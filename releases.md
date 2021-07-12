@@ -33,7 +33,7 @@
 
 <a name="version_2_25"></a>
 ## FlexHome 2.25
-### Jul 11, 2021
+### Jul 12, 2021
 - Add option in Theme Options to disable "Project" in home search box.
 - Add Wasabi cloud storage support.
 - Allow to config the default placeholder image.
