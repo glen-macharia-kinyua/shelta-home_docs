@@ -10,6 +10,9 @@
     - [API](api.md)
     
 - Available plugins
-    - [Analytics](plugin-analytics.md)
     - [Backup](plugin-backup.md)
     - [Language](plugin-language.md)
+
+- Usage
+  - [Setup email](usage-email.md)
+  - [Analytics](usage-analytics.md)

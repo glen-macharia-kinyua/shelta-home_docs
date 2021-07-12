@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.25](#version_2_25)
 - [FlexHome 2.24](#version_2_24)
 - [FlexHome 2.23](#version_2_23)
 - [FlexHome 2.22](#version_2_22)
@@ -30,9 +31,21 @@
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
 
+<a name="version_2_25"></a>
+## FlexHome 2.25
+### Jul 11, 2021
+- Add option in Theme Options to disable "Project" in home search box.
+- Add Wasabi cloud storage support.
+- Allow to config the default placeholder image.
+- Improve media, translations & backup.
+- Improve UI.
+- Optimize queries.
+- Refactor code & improve performance.
+- Fix some bugs on PHP 8.
+
 <a name="version_2_24"></a>
 ## FlexHome 2.24
-### June 11, 2021
+### Jun 11, 2021
 - Added RTL support for the admin panel.
 - Added recently viewed properties.
 - Added Agents page & featured agents shortcode.
