@@ -31,6 +31,15 @@
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
 
+<a name="version_2_26"></a>
+## FlexHome 2.26
+### Jul 27, 2021
+- Add menu level 2, 3... 
+- Update CKEditor and TinyMCE to the latest version (version 5).
+- Update media: Add a button to download media files from URL.
+- Able to add multiple admin emails in Admin -> Settings -> General.
+- Big change on blog categories. Hierarchical tree structured category https://prnt.sc/1g4dr0n.
+
 <a name="version_2_25"></a>
 ## FlexHome 2.25
 ### Jul 12, 2021
