@@ -1,5 +1,7 @@
 # Release Notes
 
+- [FlexHome 2.27](#version_2_27)
+- [FlexHome 2.26](#version_2_26)
 - [FlexHome 2.25](#version_2_25)
 - [FlexHome 2.24](#version_2_24)
 - [FlexHome 2.23](#version_2_23)
@@ -30,6 +32,24 @@
 - [FlexHome 1.2](#version_1_2)
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
+
+<a name="version_2_27"></a>
+## FlexHome 2.27
+### Aug 23, 2021
+- Fix homepage search box when "Projects" tab is disabled.
+- Fix currency settings.
+- Fix Contact plugin with the new editor.
+- Fix language flags.
+- Add package information into the transaction detail.
+- Add more social links in Theme options.
+- Auto add credit when changing payment status to COMPLETED.
+- Improve shortcode. Make it easier to modify added shortcodes.
+- Improve editor & clean XSS.
+- Update property video.
+- Update email templates.
+- Update to the latest Laravel version 8.55.0
+- Improve core.
+- Optimize queries performance.
 
 <a name="version_2_26"></a>
 ## FlexHome 2.26
