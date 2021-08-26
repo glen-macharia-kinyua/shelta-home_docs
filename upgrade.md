@@ -38,7 +38,7 @@
 >  {warning} This version requires PHP >= 7.3, make sure your hosting support PHP 7.3 or higher.
 
 - For developers:
-  - Override folder `app`, `config`, `platform`, `public/themes`, `public/vendor` and `public/index.php` from the latest version.
+  - Override folder `app`, `database`, `config`, `platform`, `public/themes`, `public/vendor` and `public/index.php` from the latest version.
   - Update file `composer.json` and `composer.lock` from new source code.
   - Delete folder `/vendor` then run `composer install` to upgrade vendor packages.
   - Run `php artisan cms:publish:assets`.
@@ -47,7 +47,7 @@
   - Run `php artisan optimize:clear` to clear cache.
 
 - For non-developers:
-  - Override folder `app`, `config`, `platform`, `public/themes`, `public/vendor`, `bootstrap`, `vendor` and `public/index.php` from the latest version.
+  - Override folder `app`, `config`, `database`, `platform`, `public/themes`, `public/vendor`, `bootstrap`, `vendor` and `public/index.php` from the latest version.
   - Delete all files in `storage/framework/views` and `storage/framework/cache`.
   - Go to Admin -> Plugins then deactivate plugin Real Estate then re-activate it.
   - Go to Admin -> Translations -> Admin translations then click on `Import group` to update translations.
