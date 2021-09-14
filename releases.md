@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.28](#version_2_28)
 - [FlexHome 2.27](#version_2_27)
 - [FlexHome 2.26](#version_2_26)
 - [FlexHome 2.25](#version_2_25)
@@ -32,6 +33,23 @@
 - [FlexHome 1.2](#version_1_2)
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
+
+<a name="version_2_28"></a>
+## FlexHome 2.28
+### Sep 14, 2021
+- Fix theme migration & issue when activating plugin Language.
+- Fix admin email.
+- Fix cache issue in media.
+- Fix create account from the admin panel.
+- Fix error when uploading account's avatar.
+- Improve theme custom CSS/JS.
+- Improve plugin Blog & Newsletter.
+- Improve allowed iframe types.
+- Handle TokenMismatchException.
+- Prevent error when missing watermark image.
+- Update to the latest Laravel version 8.60.0
+- Improve core.
+- Optimize queries performance.
 
 <a name="version_2_27"></a>
 ## FlexHome 2.27
