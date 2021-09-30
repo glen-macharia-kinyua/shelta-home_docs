@@ -51,7 +51,7 @@
   - Override folder `app`, `config`, `database`, `platform`, `public/themes`, `public/vendor`, `bootstrap`, `vendor` and `public/index.php` from the latest version.
   - Delete all files in `storage/framework/views` and `storage/framework/cache`.
   - Go to Admin -> Plugins then deactivate plugin Real Estate then re-activate it.
-  - Go to Admin -> Translations -> Admin translations then click on `Import group` to update translations.
+  - Go to Admin -> Translations -> Other translations then click on `Import group` to update translations.
   - 
 <a name="version_2_27"></a>
 ## Upgrade to version 2.27
@@ -71,7 +71,7 @@
   - Override folder `app`, `config`, `database`, `platform`, `public/themes`, `public/vendor`, `bootstrap`, `vendor` and `public/index.php` from the latest version.
   - Delete all files in `storage/framework/views` and `storage/framework/cache`.
   - Go to Admin -> Plugins then deactivate plugin Real Estate then re-activate it.
-  - Go to Admin -> Translations -> Admin translations then click on `Import group` to update translations.
+  - Go to Admin -> Translations -> Other translations then click on `Import group` to update translations.
   - 
 <a name="version_2_26"></a>
 ## Upgrade to version 2.26
