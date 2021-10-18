@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.29](#version_2_29)
 - [FlexHome 2.28](#version_2_28)
 - [FlexHome 2.27](#version_2_27)
 - [FlexHome 2.26](#version_2_26)
@@ -33,6 +34,25 @@
 - [FlexHome 1.2](#version_1_2)
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
+
+<a name="version_2_29"></a>
+## FlexHome 2.29
+### Oct 18, 2021
+- Upgrade admin theme to Bootstrap 5.
+- Add system updater. 1-click update to the latest version.
+- Add BunnyCDN cloud storage.
+- Allow disable post approval.
+- Add multilevel categories for projects & properties.
+- Fix bug admin email, login backgrounds.
+- Fix filter projects/properties on map.
+- Fix property gallery images.
+- Fix Youtube URL.
+- Update to the latest Laravel version 8.64.0
+- Improve RTL mode.
+- Improve UI & Editors.
+- Improve cookie consent (Added minimal style).
+- Improve core.
+- Optimize queries performance.
 
 <a name="version_2_28"></a>
 ## FlexHome 2.28
