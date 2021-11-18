@@ -48,18 +48,18 @@
 - Fix UI agent dashboard.
 - Fix UI issue with select2 fields.
 - Fix properties on map.
-- Fix properties/projects by city
+- Fix properties/projects by city.
 - Fix filter properties by city.
 - Fix icon field for features & facilities.
 - Fix some small issues when upgrading to Bootstrap 5.
 - Improve multi-language.
 - Improve shortcode.
-- Improve plugin Analytics, view analytics data by daterange.
+- Improve plugin Analytics, view analytics data by date range.
 - Improve Razorpay.
 - Improve payment.
 - Improve core & UI.
 - Improve RTL mode.
-- Update to the latest Laravel version 8.67.0
+- Update to the latest Laravel version 8.72.0.
 - Optimize queries performance.
 
 <a name="version_2_29"></a>
