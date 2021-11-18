@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.30](#version_2_30)
 - [FlexHome 2.29](#version_2_29)
 - [FlexHome 2.28](#version_2_28)
 - [FlexHome 2.27](#version_2_27)
@@ -34,6 +35,32 @@
 - [FlexHome 1.2](#version_1_2)
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
+
+<a name="version_2_30"></a>
+## FlexHome 2.30
+### Nov 18, 2021
+- Added option to disable credits system, agents can post their properties for free.
+- Added missing Wishlist on mobile screen.
+- Fix saving property categories & related properties.
+- Fix bullets list style in the editor.
+- Fix admin bar setting.
+- Fix Stripe payment gateway in non-decimal currencies.
+- Fix UI agent dashboard.
+- Fix UI issue with select2 fields.
+- Fix properties on map.
+- Fix properties/projects by city
+- Fix filter properties by city.
+- Fix icon field for features & facilities.
+- Fix some small issues when upgrading to Bootstrap 5.
+- Improve multi-language.
+- Improve shortcode.
+- Improve plugin Analytics, view analytics data by daterange.
+- Improve Razorpay.
+- Improve payment.
+- Improve core & UI.
+- Improve RTL mode.
+- Update to the latest Laravel version 8.67.0
+- Optimize queries performance.
 
 <a name="version_2_29"></a>
 ## FlexHome 2.29
