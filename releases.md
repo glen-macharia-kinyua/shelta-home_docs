@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.31](#version_2_31)
 - [FlexHome 2.30](#version_2_30)
 - [FlexHome 2.29](#version_2_29)
 - [FlexHome 2.28](#version_2_28)
@@ -35,6 +36,31 @@
 - [FlexHome 1.2](#version_1_2)
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
+
+<a name="version_2_31"></a>
+## FlexHome 2.31
+### Dec 17, 2021
+- Fixed search by location.
+- Fixed saving meta box data.
+- Fixed property form: can't scroll in the categories box.
+- Fixed missing jQuery library in agent dashboard.
+- Fixed duplicated properties.
+- Fixed display categories in project/property detail.
+- Fixed upload account's avatar.
+- Fixed currency settings.
+- Fixed city dropdown field in property/project form.
+- Fixed social login settings.
+- Fixed language switcher.
+- Added import cities & states from CSV.
+- Added phone number in the registration form.
+- Added icon image for feature & facility.
+- Improve search by location.
+- Improve editor & media.
+- Improve multi-language.
+- Improve editor & media.
+- Improve RTL style.
+- Update dashboard widgets for real estate.
+- Refactor code.
 
 <a name="version_2_30"></a>
 ## FlexHome 2.30
