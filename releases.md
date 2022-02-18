@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.32](#version_2_32)
 - [FlexHome 2.31](#version_2_31)
 - [FlexHome 2.30](#version_2_30)
 - [FlexHome 2.29](#version_2_29)
@@ -36,6 +37,21 @@
 - [FlexHome 1.2](#version_1_2)
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
+
+<a name="version_2_32"></a>
+## FlexHome 2.32
+### Feb 18, 2022
+- Fix issue with Cloudflare SSL.
+- Fix tree category & social links.
+- Fix duplicate shortcode in CKEditor.
+- Fix saving SEO meta tags.
+- Improve license.
+- Improve permalink.
+- Improve dashboard widgets.
+- Improve core.
+- Prevent Method Not Allowed error when use ajax DELETE/PUT.
+- Add schema for post & page.
+- Update AWS S3 settings.
 
 <a name="version_2_31"></a>
 ## FlexHome 2.31
