@@ -1,5 +1,6 @@
 # Release Notes
 
+- [FlexHome 2.33](#version_2_33)
 - [FlexHome 2.32](#version_2_32)
 - [FlexHome 2.31](#version_2_31)
 - [FlexHome 2.30](#version_2_30)
@@ -37,6 +38,19 @@
 - [FlexHome 1.2](#version_1_2)
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
+
+<a name="version_2_33"></a>
+## FlexHome 2.33
+### Mar 22, 2022
+- Fix translate properties on agent dashboard.
+- Fix migration.
+- Fix city form.
+- Fix language advanced plugin.
+- Fix plugin activation.
+- Fix menu contains &amp;
+- Improve editor.
+- Refactor code & improve queries.
+- Update Laravel framework to 8.83.5.
 
 <a name="version_2_32"></a>
 ## FlexHome 2.32
