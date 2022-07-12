@@ -1,5 +1,7 @@
 # Release Notes
 
+- [FlexHome 2.35](#version_2_35)
+- [FlexHome 2.34](#version_2_34)
 - [FlexHome 2.33](#version_2_33)
 - [FlexHome 2.32](#version_2_32)
 - [FlexHome 2.31](#version_2_31)
@@ -38,6 +40,40 @@
 - [FlexHome 1.2](#version_1_2)
 - [FlexHome 1.1](#version_1_1)
 - [FlexHome 1.0](#version_1_0)
+
+<a name="version_2_35"></a>
+## FlexHome 2.35
+### Jul 05, 2022
+- Fix property features & facilities.
+- Fix related posts.
+- Fix media URL.
+- Fix YouTube video thumbnail.
+- Fix theme translations.
+- Fix agent property form.
+- Fix get properties.
+- Add latitude & longitude validation in agency dashboard.
+- Update Facebook integration (allow comment in property/project detail page).
+- Improve plugin Backup.
+- Update homepage.
+- Allow to add a space between price and currency.
+- Add permission to manage license.
+- Improve menu.
+- Improve cache system (fix cache won't be cleared after translating data).
+- Improve performance.
+- Update libraries / third-party package to the latest version.
+
+<a name="version_2_34"></a>
+## FlexHome 2.34
+### May 23, 2022
+- Fix translate properties on agent dashboard.
+- Fix migration.
+- Fix city form.
+- Fix language advanced plugin.
+- Fix plugin activation.
+- Fix menu contains &amp;
+- Improve editor.
+- Refactor code & improve queries.
+- Update Laravel framework to 8.83.5.
 
 <a name="version_2_33"></a>
 ## FlexHome 2.33

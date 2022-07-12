@@ -1,5 +1,7 @@
 # Upgrade Guide
 
+- [Upgrade to FlexHome 2.35](#version_2_35)
+- [Upgrade to FlexHome 2.34](#version_2_34)
 - [Upgrade to FlexHome 2.33](#version_2_33)
 - [Upgrade to FlexHome 2.32](#version_2_32)
 - [Upgrade to FlexHome 2.31](#version_2_31)
@@ -37,6 +39,30 @@
 - [Upgrade to FlexHome 1.3](#version_1_3)
 - [Upgrade to FlexHome 1.2](#version_1_2)
 - [Upgrade to FlexHome 1.1](#version_1_1)
+
+<a name="version_2_35"></a>
+## Upgrade to version 2.35
+
+- Option 1 (Auto update): Go to Admin -> System Administration -> System Updater and click "Download & install update".
+
+- Option 2 (Manual update):
+  - Override folder `app`, `database`, `config`, `platform`, `public/themes`, `public/vendor`, `bootstrap`, `vendor`, `composer.json`, `composer.lock` and `public/index.php` from the latest version.
+  - Go to Admin -> Platform Administration -> Cache management then clear all caches.
+  - Go to Admin -> Plugins then deactivate plugin Real Estate & Location then re-activate them.
+  - Go to Admin -> Translations -> Other translations then click on `Import group` to update translations.
+
+
+<a name="version_2_34"></a>
+## Upgrade to version 2.34
+
+- Option 1 (Auto update): Go to Admin -> System Administration -> System Updater and click "Download & install update".
+
+- Option 2 (Manual update):
+  - Override folder `app`, `database`, `config`, `platform`, `public/themes`, `public/vendor`, `bootstrap`, `vendor`, `composer.json`, `composer.lock` and `public/index.php` from the latest version.
+  - Go to Admin -> Platform Administration -> Cache management then clear all caches.
+  - Go to Admin -> Plugins then deactivate plugin Real Estate & Location then re-activate them.
+  - Go to Admin -> Translations -> Other translations then click on `Import group` to update translations.
+
 
 <a name="version_2_33"></a>
 ## Upgrade to version 2.33
