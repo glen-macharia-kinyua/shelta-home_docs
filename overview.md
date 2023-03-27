@@ -31,7 +31,7 @@ Password:
 
 ## SHELTA Team
 
-Visit us at&#x20;
+Visit us at shelta.co.ke
 
 ## Why choose us
 
