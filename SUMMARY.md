@@ -1,6 +1,7 @@
 # Table of contents
 
 * [shelta-home\_docs](README.md)
+  * [paragonnoah/shelta-home\_docs](readme/paragonnoah-shelta-home\_docs.md)
 * [API](api.md)
 * [Introduction](installation.md)
 * [License](license.md)
