@@ -2,13 +2,14 @@
 
 ## Apply multi language for your new plugin
 
-- Open `/plugins/<your-plugin>/src/Providers/<YourPlugin>ServiceProvider.php`. Add below code to function `boot`
+* Open `/plugins/<your-plugin>/src/Providers/<YourPlugin>ServiceProvider.php`. Add below code to function `boot`
 
 ```php
 if (defined('LANGUAGE_MODULE_SCREEN_NAME')) {
     \Language::registerModule([YourPluginModel::class]);
 }
 ```
+
 ## Language switcher
 
 ### Adding language switcher to your theme.
@@ -23,8 +24,7 @@ Add to your theme views.
 
 If you want to custom language switcher, you can modify this file: `platform/plugins/language/resources/views/partials/switcher.blade.php`
 
-If you have a fixed number of languages you can use hardcode HTML like this.
-Note: Language settings in admin won't work if you use this code.
+If you have a fixed number of languages you can use hardcode HTML like this. Note: Language settings in admin won't work if you use this code.
 
 ```
 <ul>
@@ -35,9 +35,9 @@ Note: Language settings in admin won't work if you use this code.
         </a>
     </li>
     <li >
-        <a rel="alternate" hreflang="vi" href="{{ Language::getLocalizedURL('vi') }}">
-            <img src="{{ url('vendor/core/images/flags/vn.svg') }}" width="20" title="Tiếng Việt" alt="Tiếng Việt">
-            <span>Tiếng Việt</span>
+        <a rel="alternate" hreflang="vi" href="{{ Language::getLocalizedURL('swa') }}">
+            <img src="{{ url('vendor/core/images/flags/swa.svg') }}" width="20" title="swahili" alt="swahili">
+            <span>swahili</span>
         </a>
     </li>
 </ul>
